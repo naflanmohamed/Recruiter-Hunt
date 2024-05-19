@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #00000066; */
+    background-image: url('../images/job-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.552);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 70px;
+    max-width: 700px;
+    margin: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #74512D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #AF8F6F;
+}
+
+.home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.home a:hover {
+    color: #F8F4E1;
+}
