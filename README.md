@@ -1,5 +1,7 @@
 # Recruiter Hunt
 
+[🔗 Live Demo](https://naflanmohamed.github.io/Recruiter-Hunt/)
+
 Welcome to **Recruiter Hunt**, a front-end prototype for a recruitment platform where recruiters can post jobs and candidates can view and apply for positions. This repository contains all the source code, assets, and documentation for the Recruiter Hunt project.
 
 ## Table of Contents
